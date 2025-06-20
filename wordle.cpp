@@ -14,12 +14,12 @@ string fiveLetterWords[] = {
 "plume", "quilt", "stare", "badge", "brick", "claps", "dampy", "flaps", "glove", "haste", 
 "impel", "jumpy", "knack", "latch", "melon", "nudge", "oiled", "palsy", "quake", "raven",
 "tiger", "viper", "whale", "xenon", "yacht", "zesty", "bison", "dusty", "flick", "gavel",
-"irate", "kited", "leapt", "mourn", "nifty", "scout", "alakh", "vowel", "wraps", "youth"};
+"irate", "kited", "leapt", "mourn", "nifty", "scout", "mango", "vowel", "wraps", "youth"};
 
 int main() { 
-    cout << "red letter = letter is part of the word but at wrong position" << endl    //GAME INFO
-         << "green letter = letter is part of the word and at correct position" << endl//GAME INFO
-         << "default(white) letter = letter is not part of the word" << endl           //GAME INFO
+    cout << RED<<"red"<< RESET<<" letter = letter is part of the word but at wrong position" << endl    //GAME INFO
+         << GREEN<<"green"<<RESET<<" letter = letter is part of the word and at correct position" << endl//GAME INFO
+         << "default letter = letter is not part of the word" << endl           //GAME INFO
          << "The word is made up of 5 unique letters, you will have 5 turns to guess it correctly." << endl
          << "Dont be an asshole, type a single word in lower case and make sure its of 5 letters." << endl <<endl;
 
